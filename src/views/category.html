@@ -1,0 +1,451 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PEC 2 Herramientas HTML y CSS UOC</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.scss">
+    <script type="module" src="../assets/js/app.js"></script>
+  </head>
+  
+  <body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <img class="img-header" src="../assets/img/common/logo-header.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Portada</a>
+                </li>
+                <li>
+                    <a class="active" href="./category.html">Categorías</a>
+                </li>
+                <li>
+                    <a href="./presentation.html">Presentación</a>
+                </li>
+                <li>
+                  <a href="./link.html">Enlaces</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>
+                <i class="fa fa-list-alt icon" aria-hidden="true"></i>
+                <span>Categorías</span>
+            </h1>
+
+            <article class="categories">
+                <h2>
+                    <i class="fas fa-history icon" aria-hidden="true"></i>
+                    <span>Figuras históricas</span>
+                </h2>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/ragnar-170w.jpg 170w,
+                                     ../assets/img/others/ragnar-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/ragnar-220w.jpg"
+                        alt="Ragnar Lothbrok">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Ragnar Lohbrok</span>
+                        </h3>
+                        <p>El <span class="bold">Rey Ragnar Lothbrok fue un poderoso guerrero vikingo y fundador de la <span class="italic">Casa Lothbrok</span></span>, que cree que está destinado a la grandeza. Él esta impulsado no sólo por su sed de batalla y gloria, sino también por su sed de conocimiento y la naturaleza inquisitiva.</p>
+                        <a class="button-detail" href="./detail.html">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/rollo-170w.jpg 170w,
+                                     ../assets/img/others/rollo-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/rollo-220w.jpg"
+                        alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Rollo</span>
+                        </h3>
+                        <p>Hermano mayor de Ragnar Lothbrok. El ex esposo de Gisla y padre de William, Marcellus y Celsa. Antes de su matrimonio, Rollo era conocido por ser un guerrero vikingo con gran ímpetu y una gran habilidad para el combate. <span class="bold">Terminó siendo el duque de Normadía</span>.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/ivar-170w.jpg 170w,
+                                     ../assets/img/others/ivar-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/ivar-220w.jpg"
+                        alt="Ivar">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Ivar Ragnarsson</span>
+                        </h3>
+                        <p>También <span class="bold">conocido como <span class="italic">Ivar el Deshuesado</span></span>, es el cuarto hijo de Ragnar y Aslaug. Él jura venganza contra Lagertha por matar a su madre, y contra los reyes Aelle y Ecbert por la muerte de su padre. A pesar de su discapacidad, Ivar ha demostrado ser un feroz guerrero dispuesto a matar a cualquier cristiano que se cruce en su camino.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/bjorn-170w.jpg 170w,
+                                     ../assets/img/others/bjorn-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/bjorn-220w.jpg"
+                        alt="Bjorn">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Björn Ragnarsson</span>
+                        </h3>
+                        <p>También conocido como <span class="italic">Brazo de hierro</span>, es el <span class="bold">verdadero rey de toda Noruega</span>. Bjorn es el heredero de Ragnar Lothbrok a Kattegat. Leal y emulando a su sabio padre, Bjorn se había hecho un nombre, siguiendo los pasos de su padre como un formidable guerrero, líder y explorador. Comparte la sed de aventura de su padre y desea explorar tierras lejanas.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/lagertha-170w.jpg 170w,
+                                     ../assets/img/others/lagertha-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/lagertha-220w.jpg"
+                        alt="Lagertha">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Lagertha</span>
+                        </h3>
+                        <p>Lagertha es la primera y ex esposa de Ragnar Lothbrok y la ex reina de Kattegat. Es la madre de Björn. Es condesa y una feroz doncella escudera.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/ubbe-170w.jpg 170w,
+                                     ../assets/img/others/ubbe-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/ubbe-220w.jpg"
+                        alt="Ubbe">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Ubbe Ragnarsson</span>
+                        </h3>
+                        <p>Es el segundo hijo mayor de Ragnar y posiblemente el más suave. También se parece mucho a su padre cuando era joven.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/sigurd-170w.jpg 170w,
+                                     ../assets/img/others/sigurd-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/sigurd-220w.jpg"
+                        alt="Sigurd">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Sigurd Ragnarsson</span>
+                        </h3>
+                        <p>Era uno de los hijos de Ragnar Lodbrok y Aslaug, pero lo que le distingue de los demás hermanos es que nació con la imagen de <span class="italic">Uróboros</span>, una serpiente o dragón mordiendo su propia cola, rodeando la pupila de su ojo izquierdo.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/hvitsark-170w.jpg 170w,
+                                     ../assets/img/others/hvitsark-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/hvitsark-220w.jpg"
+                        alt="Hvitsark">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Hvitsärk</span>
+                        </h3>
+                        <p>Fue un guerrero vikingo apodado <span class="italic">Camisa blanca</span>. Varias fuentes aseguran que era el mismo Halfdan, uno de los hijos de Ragnar Lothbrok. En las sagas nórdicas es común encontrarlo como Hvitrsek, mientras en las crónicas anglosajonas se nombra Halfdan, por ello los historiadores tendieron a asumirlo como un solo individuo.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img-miniature">
+                        <img srcset="../assets/img/others/harald-170w.jpg 170w,
+                                     ../assets/img/others/harald-220w.jpg 220w"
+                        sizes="(max-width: 700px) 220px, 170px"
+                        src="../assets/img/others/harald-220w.jpg"
+                        alt="Harald">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Harald Halfdansson</span>
+                        </h3>
+                        <p>Es un señor de la guerra y rey escandinavo. Fue una amenaza para Ragnar antes de su muerte. Su sueño es convertirse en rey de toda Noruega. Estaba casado con Astrid antes de que ella obligara a Lagertha a matarla en la batalla. Después de muchas batallas y traiciones, se convirtió en rey de Noruega.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="categories">
+                <h2>
+                    <i class="fa-solid fa-map icon" aria-hidden="true"></i>
+                    <span>Conquistas</span>
+                </h2>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/england.jpg" alt="England">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                            <span>Inglaterra</span>
+                        </h3>
+                        <p>Las invasiones vikingas en Gran Bretaña e Irlanda comenzaron a finales del siglo VIII, principalmente en los monasterios. El primer monasterio allanado fue en el 793 en Lindisfarne, en la costa noreste.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/france.jpg" alt="Francia">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                            <span>Francia</span>
+                        </h3>
+                        <p>Aproximadamente en 845 Ragnar Lothbrok lanzó una ofensiva con 120 barcos y 5000 hombres contra el reino de Francia. Probablemente desembarcó en el estuario del Sena y asoló la parte occidental del Imperio franco.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/mediterranean.jpg" alt="Mediterranean">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                            <span>Mediterráneo</span>
+                        </h3>
+                        <p>La Incursión Mediterránea es una incursión vikinga dirigida por Bjorn contra la ciudad de Algeciras en la España sarracena.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="categories">
+                <h2>
+                    <i class="fa-solid fa-bullhorn icon" aria-hidden="true"></i>
+                    <span>Batallas</span>
+                </h2>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/york.jpg" alt="York">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-head-side-cough-slash icon" aria-hidden="true"></i>
+                            <span>Batalla de York</span>
+                        </h3>
+                        <p>El <span class="italic">Gran Ejército Pagano</span>, que zarpó de Kattegat, llega a las costas de Northumbria. El rey Aelle está convencido que su ejército va a derrotar al ejército pagano, hasta que ve una cantidad de 4000 vikingos, dando una devastadora derrota para los sajones vulnerando el reino de Northumbria.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/paris.jpg" alt="Paris">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-head-side-cough-slash icon" aria-hidden="true"></i>
+                            <span>Asedio a París</span>
+                        </h3>
+                        <p>Un histórico Ragnar Lodbrok aparece como jarl de la corte de Horik I (814-854) de Dinamarca, participó en el asedio de París el 28 de marzo de 845. Carlos II el Calvo, nieto de Carlomagno, tuvo que pagar por la ciudad un danegeld (tributo) de 7000 libras de oro y plata para evitar el pillaje. Este acuerdo no le impidió atacar otras partes de Francia, siendo ardua la tarea de expulsarle.</p>  
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <figure class="category-img">
+                        <img src="../assets/img/others/wessex.jpg" alt="Wessex">
+                        <figcaption></figcaption>
+                    </figure>
+                    
+                    <div class="category-description">
+                        <h3>
+                            <i class="fa-solid fa-head-side-cough-slash icon" aria-hidden="true"></i>
+                            <span>Emboscada de Wessex</span>
+                        </h3>
+                        <p>Wessex fue gobernado por el Rey Ecbert, Aethelwulf fue hecho rey antes Rey antes del captura de Ecbert. Wessex limita con el reino de Mercia a lo largo del rió Támesis.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="nav-main">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="img-footer" src="../assets/img/common/logo-footer.svg" alt="Logo">
+                </a>
+            </div>
+            
+            <nav class="nav-pages">
+                <ul class="pages">
+                    <li>
+                        <a href="../index.html">Portada</a>
+                    </li>
+                    <li>
+                        <a class="active" href="./category.html">Categorías</a>
+                    </li>
+                    <li>
+                        <a href="./presentation.html">Presentación</a>
+                    </li>
+                    <li>
+                      <a href="./link.html">Enlaces</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="nav-policy">
+            <ul class="policy">
+                <li>
+                    <i class="fa-solid fa-circle-info icon" aria-hidden="true"></i>
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li>
+                    <i class="fas fa-exclamation-triangle icon" aria-hidden="true"></i>
+                    <a href="">Aviso legal</a>
+                </li>
+                <li>
+                    <i class="fa fa-shield icon" aria-hidden="true"></i>
+                    <a href="">Política de privacidad</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cookie icon" aria-hidden="true"></i>
+                    <a href="">Política de cookies</a>
+                </li>
+            </ul>
+            <ul class="social-media">
+                <li>
+                    <a href=""><img src="../assets/img/common/twitter.svg" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/youtube.svg" alt="Youtube"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="copyright">
+            <i class="fas fa-copyright icon" aria-hidden="true"></i> <span>Carlos Otero Franjo, Herramientas HTML y CSS, Universitat Oberta de Catalunya</span>
+        </div>
+    </footer>
+
+    <script type="module" src="../assets/js/app.js"></script>
+  </body>
+</html>

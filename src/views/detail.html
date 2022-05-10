@@ -1,0 +1,610 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PEC 2 Herramientas HTML y CSS UOC</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.scss">
+    <script type="module" src="../assets/js/app.js"></script>
+  </head>
+  
+  <body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <img class="img-header" src="../assets/img/common/logo-header.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Portada</a>
+                </li>
+                <li>
+                    <a class="active" href="./category.html">Categorías</a>
+                </li>
+                <li>
+                    <a href="./presentation.html">Presentación</a>
+                </li>
+                <li>
+                  <a href="./link.html">Enlaces</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="category-landscape">
+            <article class="category-content-landscape">
+                <picture class="category-picture-landscape">
+                    <source class="category-img-landscape" media="(max-width: 900px)" srcset="../assets/img/common/landscape-300w.jpg">
+                    <source class="category-img-landscape" media="(max-width: 1374px)" srcset="../assets/img/common/landscape-700w.jpg">
+                    <source class="category-img-landscape" media="(min-width: 1375px)" srcset="../assets/img/common/landscape-1200w.jpg">
+                    <img class="category-img-landscape" src="../assets/img/common/landscape-700w.jpg" alt="Vikings landscape">
+                  </picture>
+            </article>
+        </section>
+
+        <section>
+            <h1>
+                <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                <span>Ragnar Lothbrok</span>
+            </h1>
+
+            <article class="category-detail">
+                <h2>
+                    <i class="fa-solid fa-book icon" aria-hidden="true"></i>
+                    <span>Introducción</span>
+                </h2>
+
+                <figure class="category-detail-img">
+                    <img srcset="../assets/img/others/ragnar-700w.jpg 700w,
+                                 ../assets/img/others/ragnar-500w.jpg 500w,
+                                 ../assets/img/others/ragnar-350w.jpg 300w"
+                        sizes="(min-width: 1100px) 700px, 
+                               (min-width: 701px) 500px, 
+                               (max-width: 700px) 350px"
+                        src="../assets/img/others/ragnar-500w.jpg"
+                        alt="Ragnar Lothbrok">
+                    <figcaption>Ragnar Lothbrok en su juventud en Kattegat</figcaption>
+                </figure>
+
+                <p>El <span class="bold">Rey Ragnar Lothbrok fue un poderoso guerrero vikingo y fundador de la <span class="italic">Casa Lothbrok</span></span>, que cree que está destinado a la grandeza. Él esta impulsado no sólo por su sed de batalla y gloria, sino también por su sed de conocimiento y la naturaleza inquisitiva.</p>
+                
+                <figure class="category-detail-img-right">
+                    <img srcset="../assets/img/others/ragnar-350w.png,
+                                 ../assets/img/others/ragnar-400w.png 1.5x"
+                        src="../assets/img/others/ragnar-350w.png"
+                        alt="Ragnar Lothbrok">
+                    <figcaption>Ragnar Lothbrok como conde en una batalla</figcaption>
+                </figure>
+                
+                <p>Siendo tan sólo un granjero y un miembro habitual en las expediciones hacia poniente junto con sus compañeros nórdicos, Ragnar ha ido escalando en el poder, empezando por sus famosas incursiones hacia el oeste. Más tarde se convirtió en el conde de Kattegat y, finalmente, incluso en rey de Dinamarca. Su espíritu aventurero le pone en conflicto con los hombres poderosos que tratan de bloquear su ascenso, temerosos de perder su posición.</p>
+                
+                <picture class="category-detail-picture">
+                    <source type="image/webp" 
+                            srcset="../assets/img/others/ragnar-350w.webp 350w,
+                                    ../assets/img/others/ragnar-400w.webp 400w"
+                            sizes="(max-width: 700px) 350px, 400px"
+                            src="../assets/img/others/ragnar-350w.webp">
+                    <source type="image/png" 
+                            srcset="../assets/img/others/ragnar-2-350w.png 350w,
+                                    ../assets/img/others/ragnar-2-400w.png 400w"
+                            sizes="(max-width: 700px) 350px, 400px"
+                            src="../assets/img/others/ragnar-2-350w.png">
+                    <img src="../assets/img/others/ragnar-2-350w.png" alt="Ragnar Lothbrok">
+                    <p class="figcaption">Ragnar Lothbrok como en rey en Kattegat</p>
+                </picture>
+
+                <p>Ragnar <span class="bold">se identifica con el dios Odín</span>, que cambió su ojo por el conocimiento <span class="read-more-about">Leer más...</span><span class="read-less-text-about is-hidden">y él daría mucho más por conocimiento de lo que dio Odín.</span></p>
+                <p class="read-less-text-about is-hidden">En su lecho de muerte cantó el himno nórdico y le prometió la venganza por parte de sus hijos. Tiempo después, el Gran Ejército Heathen dirigido por los innumerables hijos del legendario vikingo, invadieron Northumbria y mataron al Rey Aella en el año 866. El legado de Ragnar Lodbrok se perpetuó y sus descendientes continuaron revestidos del poder de su padre, tuvieron un impacto en la organización militar de la región, en especial en su segundo hijo Ivar el Deshuesado. <span class="read-less-about">Leer menos...</span></p>
+
+                <figure class="category-detail-img-right">
+                    <img srcset="../assets/img/others/vikings-350w.png 350w,
+                                 ../assets/img/others/vikings-400w.png 400w"
+                        sizes="(min-width: 701px) 400px, 
+                               (max-width: 700px) 350px"
+                        src="../assets/img/others/vikings-350w.png"
+                        alt="Ragnar Lothbrok">
+                    <figcaption>Imagen de la representación de vikingos</figcaption>
+                </figure>
+            </article>
+
+            <article class="category-detail">
+                <h2>
+                    <i class="fa fa-history icon" aria-hidden="true"></i>
+                    <span>Biografía</span>
+                </h2>
+
+                <figure class="category-detail-iframe">
+                    <iframe src="https://www.youtube.com/embed/GiJPYfM_qOk"></iframe>
+                    <figcaption>La verdadera historia de Ragnar Lothbrok</figcaption>
+                </figure>
+
+                <p>Según las crónicas nórdicas, escritas dos siglos después de los saqueos y ataques vikingos en Europa, Ragnar Lothbrok Sigurdsson <span class="bold">fue un legendario monarca de Noruega, Suecia y Dinamarca</span> que reinó en el siglo IX y que pertenecía a la línea real de la casa de los <span class="italic">Ynglings</span>, como hijo de Sigurd Ring, rey de Suecia y conquistador de Dinamarca, y su consorte Alfhild Gandolfsdatter.</p>
+                <p>Ragnar Lodbrok era respetado por su pueblo y visto como el <span class="bold">señor de la guerra, construyó su fortuna asaltando tierras y reinos en el oeste. En el arte de la guerra fue un líder ingenioso</span> y, eventualmente usaba tácticas de bombardeo para asaltar a sus enemigos, especialmente durante sus ataques a Francia. <span class="read-more-bio">Leer más...</span><span class="read-less-text-bio is-hidden">Con ello, logró que sus hombres sitiaran la ciudad de París e hicieron que el rey Carlos pagara 7000 libras para desocupar el territorio.</span></p>
+                <p class="read-less-text-bio is-hidden">Ragnar Lodbrok tenía tres esposas: Lagertha, la Maestra de Escudos, Aslaug la reina guerrera y Thora Town-Hart, una mujer noble que era la hija del conde Herrauor de Götaland. Con ellas engendró innumerables hijos, algunos de ellos: Bjorn Ironside, Ubba, Hvitserk, Halfdan Ragnarsson, Halvdan Ylving e Ivar el Deshuesado, dicen que él fue más famoso que su padre luego de su muerte. Podemos nombrar también a Eric, Agnar, Hastein, Rognvald, Harald, Fridleif Ragnarsson, Dunvat Ragnarsen y Radbard Ragnarsen.</p>
+                <p class="read-less-text-bio is-hidden">Ragnar se casó con Lagertha cuando regresaba a Noruega. Se enteró que el Rey Siward de Suecia había matado a su abuelo. El vikingo decidió tomar venganza, así que, tomó como prisioneras todas las mujeres de la familia y de la corte del Rey, a Lagertha la llevó a un burdel para ser humillada. Se dice que era una mujer muy valiente. Con el tiempo, Ragnar se sintió atraído por la valentía de Lagertha y quiso casarse con ella. Tuvieron varios hijos el primero de ellos, Björn Ironside, luego Ivar el Deshuesado.</p>
+                <p class="read-less-text-bio is-hidden">Aslaug, su tercera esposa, era hija de la escudera Brynhildr y el legendario Viking Sigurd, un vikingo con grandes poderes que luchó y venció un dragón. Para comprobarlo dijo a Ragnar que le daría un hijo con un ojo de dragón, y así fue: dio a luz a Sigurd ojo de serpiente que nació con la marca en su ojo izquierdo. Esta joven tenía grandes poderes heredados de su madre, como el don de ver el futuro y realizar hechizos.</p>
+                <p class="read-less-text-bio is-hidden">Con respecto a la muerte de este héroe nacional, hay dos versiones. La primera asegura que murió a causa de disentería luego de invadir París, una fuerte diarrea que duró más de un mes causó su muerte por deshidratación. Por otro lado, la segunda versión de la muerte del vikingo, expresa que fue asesinado a manos del rey Aelle de Northumbria, zona que Ragnar había sitiado cuantas veces se le antojó. Ragnar luego de navegar, llegó a tierra en la costa del Reino de Northumbria. En ese momento, el rey mandó sus hombres para que lo capturaran, a pesar de la oposición, no pudo vencer a un centenar de hombres. El rey Aella ordenó sin piedad que lo arrojaran a un pozo de serpientes. <span class="read-less-bio">Leer menos...</span></p>
+            </article>
+
+            <article class="category-detail">
+                <h2>
+                    <i class="fa-solid fa-map icon" aria-hidden="true"></i>
+                    <span>Conquistas</span>
+                </h2>
+
+                <ul class="category-detail-list">
+                    <li class="category-detail-list-item">
+                        <figure class="list-item-img">
+                            <img src="../assets/img/others/baltic.jpg" alt="Baltico">
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <div class="list-item-description">
+                            <h3>
+                                <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                                <span>Báltico</span>
+                            </h3>
+                            <p>Se citan dos importantes incursiones a principios de la década de 840 de Ragnar en el mar Báltico por Saxo Grammaticus en <cite>Gesta Danorum</cite>, el primero contra los dominios de los semigalianos que Saxo denomina <span class="italic">hellespontianos</span>, y el segundo contra curonios y sambianos. Tras vencer a los semigalianos, de regreso a Dinamarca, atacó las costas de Sambia y el reino de los curonios forzando a sus habitantes a reconocerle como conquistador para evitar la devastación.</p>
+                            <a class="button-detail" href="#">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>Ver detalle</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="category-detail-list-item">
+                        <figure class="list-item-img">
+                            <img src="../assets/img/others/france.jpg" alt="Baltico">
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <div class="list-item-description">
+                            <h3>
+                                <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                                <span>Francia</span>
+                            </h3>
+                            <p>Aproximadamente en 845, era ya uno de los mayores caudillos vikingos, preocupado por la falta de ocupación de sus hijos. Temía que los hombres de armas de su reino, sin enemigos, cometieran alguna estupidez que fuera contraproducente para su reinado. Por ello lanzó una ofensiva con 120 barcos y 5000 hombres contra el reino de Francia. Probablemente desembarcó en el estuario del Sena y asoló la parte occidental del Imperio franco.</p>
+                            <p>Un histórico Ragnar Lodbrok aparece como jarl de la corte de Horik I (814-854) de Dinamarca, participó en el asedio de París el 28 de marzo de 845. Carlos II el Calvo, nieto de Carlomagno, tuvo que pagar por la ciudad un danegeld (tributo) de 7000 libras de oro y plata para evitar el pillaje. Este acuerdo no le impidió atacar otras partes de Francia, siendo ardua la tarea de expulsarle.</p>
+                            <a class="button-detail" href="#">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>Ver detalle</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="view-more-conquest">Ver más</li>
+
+                    <li class="category-detail-list-item view-less is-hidden">
+                        <figure class="list-item-img">
+                            <img src="../assets/img/others/england.jpg" alt="Baltico">
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <div class="list-item-description">
+                            <h3>
+                                <i class="fa-solid fa-globe icon" aria-hidden="true"></i>
+                                <span>Inglaterra</span>
+                            </h3>
+                            <p>Tras Francia, las islas británicas atrajeron su atención. En 865, desembarcó en Northumbria, en la costa noreste de Inglaterra, donde fue derrotado por Aella de Northumbria. Fue atrapado por el rey de los anglos, y ejecutado de manera horrible, arrojado a un pozo de serpientes venenosas. Sus últimas palabras fueron que sus cachorros lo vengarían. Estos eran sus hijos Björn, Ivar, Halfdan y Ubbe.</p>
+                            <a class="button-detail" href="#">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>Ver detalle</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="view-less-conquest is-hidden">Ver menos</li>
+                </ul>
+            </article>
+
+            <article class="category-detail">
+                <h2>
+                    <i class="fa-solid fa-child icon" aria-hidden="true"></i>
+                    <span>Legado</span>
+                </h2>
+
+                <div class="legacy">
+                    <figure class="legacy-img">
+                        <img src="../assets/img/others/ivar.jpg" alt="Ivar">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <div class="legacy-description">
+                        <h3>
+                            <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                            <span>Ivar Ragnarsson</span>
+                        </h3>
+                        <p>También <span class="bold">conocido como <span class="italic">Ivar el Deshuesado</span></span>, es el cuarto hijo de Ragnar y Aslaug. Él jura venganza contra Lagertha por matar a su madre, y contra los reyes Aelle y Ecbert por la muerte de su padre. A pesar de su discapacidad, Ivar ha demostrado ser un feroz guerrero dispuesto a matar a cualquier cristiano que se cruce en su camino.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="legacy">
+                    <figure class="legacy-img">
+                        <img src="../assets/img/others/bjorn.jpg" alt="Björn">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <div class="legacy-description">
+                        <h3>
+                            <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                            <span>Björn Ragnarsson</span>
+                        </h3>
+                        <p>También conocido como <span class="italic">Brazo de hierro</span>, es el <span class="bold">verdadero rey de toda Noruega</span>. Bjorn es el heredero de Ragnar Lothbrok a Kattegat. Leal y emulando a su sabio padre, Bjorn se había hecho un nombre, siguiendo los pasos de su padre como un formidable guerrero, líder y explorador. Comparte la sed de aventura de su padre y desea explorar tierras lejanas.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="legacy">
+                    <figure class="legacy-img">
+                        <img src="../assets/img/others/ubbe.jpg" alt="Ubbe">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <div class="legacy-description">
+                        <h3>
+                            <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                            <span>Ubbe Ragnarsson</span>
+                        </h3>
+                        <p>Es el segundo hijo mayor de Ragnar y posiblemente el más suave. También se parece mucho a su padre cuando era joven.</p>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="view-more-legacy">Ver más</div>
+
+                <div class="legacies is-hidden">
+                    <div class="legacy">
+                        <figure class="legacy-img">
+                            <img src="../assets/img/others/sigurd.jpg" alt="Sigurd">
+                            <figcaption></figcaption>
+                        </figure>
+    
+                        <div class="legacy-description">
+                            <h3>
+                                <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                                <span>Sigurd Ragnarsson</span>
+                            </h3>
+                            <p>Era uno de los hijos de Ragnar Lodbrok y Aslaug, pero lo que le distingue de los demás hermanos es que nació con la imagen de <span class="italic">Uróboros</span>, una serpiente o dragón mordiendo su propia cola, rodeando la pupila de su ojo izquierdo.</p>
+                            <a class="button-detail" href="#">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>Ver detalle</span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="legacy">
+                        <figure class="legacy-img">
+                            <img src="../assets/img/others/hvitsark.jpg" alt="Hvitsärk">
+                            <figcaption></figcaption>
+                        </figure>
+    
+                        <div class="legacy-description">
+                            <h3>
+                                <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                                <span>Hvitsärk</span>
+                            </h3>
+                            <p>Fue un guerrero vikingo apodado <span class="italic">Camisa blanca</span>. Varias fuentes aseguran que era el mismo Halfdan, uno de los hijos de Ragnar Lodbrock. En las sagas nórdicas es común encontrarlo como Hvitrsek, mientras en las crónicas anglosajonas se nombra Halfdan, por ello los historiadores tendieron a asumirlo como un solo individuo.</p>
+                            <a class="button-detail" href="#">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>Ver detalle</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-less-legacy is-hidden">Ver menos</div>
+            </article>
+
+            <article class="category-detail">
+                <h2>
+                    <i class="fa-solid fa-circle-info icon" aria-hidden="true"></i>
+                    <span>Más información</span>
+                </h2>
+
+                <div class="knowledge">
+                    <div class="knowledge-list">
+                        <h2>
+                            <i class="fas fa-address-card icon" aria-hidden="true"></i>
+                            <span>Conocimientos generales del vikingo</span>
+                        </h2>
+            
+                        <ul>
+                            <li class="knowledge-list-item">Dioses</li>
+                            <li class="knowledge-list-item">Cultura</li>
+                            <li class="knowledge-list-item">Marítimos</li>
+                            <li class="knowledge-list-item">Idiomas</li>
+                            <li class="knowledge-list-item">Geografía</li>
+                            <li class="view-more-knowledge">Ver más...</li>
+                            <li class="knowledge-list-item view-less is-hidden">Lucha Cuerpo a cuerpo</li>
+                            <li class="knowledge-list-item view-less is-hidden">Lucha a distancia</li>
+                            <li class="knowledge-list-item view-less is-hidden">Gobernar</li>
+                            <li class="knowledge-list-item view-less is-hidden">Artesanía</li>
+                            <li class="knowledge-list-item view-less is-hidden">Herrería</li>
+                            <li class="view-less-knowledge is-hidden">Ver menos...</li>
+                        </ul>
+                    </div>
+            
+                    <div class="tools-list">
+                        <h2>
+                            <i class="fas fa-tools icon" aria-hidden="true"></i>
+                            <span>Herramientas del vikingo</span>
+                        </h2>
+            
+                        <ul>
+                            <li class="tools-list-item">Espada</li>
+                            <li class="tools-list-item">Hacha</li>
+                            <li class="tools-list-item">Escudo</li>
+                            <li class="tools-list-item">Arco</li>
+                            <li class="tools-list-item">Flecha</li>
+                            <li class="view-more-tools">Ver más...</li>
+                            <li class="tools-list-item view-less is-hidden">Cuchillo</li>
+                            <li class="tools-list-item view-less is-hidden">Lanza</li>
+                            <li class="tools-list-item view-less is-hidden">Armadura</li>
+                            <li class="tools-list-item view-less is-hidden">Casco</li>
+                            <li class="view-less-tools is-hidden">Ver menos...</li>
+                        </ul>
+                    </div>
+
+                    <div class="list">
+                        <h2>
+                            <i class="fa fa-bar-chart icon" aria-hidden="true"></i>
+                            <span>Aptitudes del vikingo</span>
+                        </h2>
+            
+                        <ul>
+                            <li class="list-item">Conquistador</li>
+                            <li class="list-item">Lealtad</li>
+                            <li class="list-item">Guerrero</li>
+                            <li class="list-item">Rey</li>
+                            <li class="list-item">Navegador</li>
+                        </ul>
+                    </div>
+            
+                    <div class="list">
+                        <h2>
+                            <i class="far fa-id-card icon" aria-hidden="true"></i>
+                            <span>Aptitudes interpersonales del vikingo</span>
+                        </h2>
+            
+                        <ul>
+                            <li class="list-item">Ambicioso</li>
+                            <li class="list-item">Iniciativa</li>
+                            <li class="list-item">Liderazgo</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="search">
+            <h2>
+                <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                <span>Más figuras históricas</span>
+            </h2>
+
+            <div class="search-categories">
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/rollo.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Rollo</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/ivar.jpg" alt="Ivar">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Ivar Ragnarsson</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/bjorn.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Björn Ragnarsson</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/lagertha.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Lagertha</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/ubbe.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Ubbe Ragnarsson</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/sigurd.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Sigurd Ragnarsson</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/hvitsark.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Hvitsärk</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-item">
+                    <figure class="search-item-img">
+                        <img src="../assets/img/others/harald.jpg" alt="Rollo">
+                        <figcaption></figcaption>
+                    </figure>
+    
+                    <div class="search-item-description">
+                        <h3>
+                            <i class="fa-solid fa-user icon" aria-hidden="true"></i>
+                            <span>Harald Halfdansson</span>
+                        </h3>
+                        <a class="button-detail" href="#">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            <span>Ver detalle</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="nav-main">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="img-footer" src="../assets/img/common/logo-footer.svg" alt="Logo">
+                </a>
+            </div>
+            
+            <nav class="nav-pages">
+                <ul class="pages">
+                    <li>
+                        <a href="../index.html">Portada</a>
+                    </li>
+                    <li>
+                        <a class="active" href="./category.html">Categorías</a>
+                    </li>
+                    <li>
+                        <a href="./presentation.html">Presentación</a>
+                    </li>
+                    <li>
+                      <a href="./link.html">Enlaces</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="nav-policy">
+            <ul class="policy">
+                <li>
+                    <i class="fa-solid fa-circle-info icon" aria-hidden="true"></i>
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li>
+                    <i class="fas fa-exclamation-triangle icon" aria-hidden="true"></i>
+                    <a href="">Aviso legal</a>
+                </li>
+                <li>
+                    <i class="fa fa-shield icon" aria-hidden="true"></i>
+                    <a href="">Política de privacidad</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cookie icon" aria-hidden="true"></i>
+                    <a href="">Política de cookies</a>
+                </li>
+            </ul>
+            <ul class="social-media">
+                <li>
+                    <a href=""><img src="../assets/img/common/twitter.svg" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/youtube.svg" alt="Youtube"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="copyright">
+            <i class="fas fa-copyright icon" aria-hidden="true"></i> <span>Carlos Otero Franjo, Herramientas HTML y CSS, Universitat Oberta de Catalunya</span>
+        </div>
+    </footer>
+
+    <script type="module" src="../assets/js/app.js"></script>
+  </body>
+</html>

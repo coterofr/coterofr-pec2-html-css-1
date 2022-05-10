@@ -1,0 +1,31 @@
+<svg width="95" height="80" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  
+    <!-- Cuernos curvados casco -->
+    <path d="M 5 10 
+             C 5 30, 25 35, 55 40 
+             L 15 60 
+             C 5 55, 1 35, 5 10"
+    stroke="#292828" stroke-width="1" fill="#7D6200"/>
+    <path d="M 90 10 
+             C 90 30, 70 35, 40 40 
+             L 80,60 
+             C 90 55, 94 35, 90 10"
+    stroke="#292828" stroke-width="1" fill="#7D6200"/>
+    <!-- Casco -->
+    <path d="M 10 70 C 10 15, 90 15, 90 70" stroke="#292828" stroke-width="1" fill="#7D6200"/>
+    <!-- Cinta casco vertical -->
+    <line x1="20" x2="20" y1="42" y2="60" stroke="#292828" stroke-width="1"/>
+    <line x1="40" x2="40" y1="30" y2="60" stroke="#292828" stroke-width="1"/>
+    <line x1="60" x2="60" y1="30" y2="60" stroke="#292828" stroke-width="1"/>
+    <line x1="80" x2="80" y1="42" y2="60" stroke="#292828" stroke-width="1"/>
+    <!-- Cinta casco horizontal -->
+    <line x1="11" x2="89" y1="60" y2="60" stroke="#292828" stroke-width="1"/>
+    <line x1="10" x2="90" y1="70" y2="70" stroke="#292828" stroke-width="1"/>
+    <!-- Círculos casco -->
+    <ellipse cx="17" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+    <ellipse cx="30" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+    <ellipse cx="43" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+    <ellipse cx="57" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+    <ellipse cx="70" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+    <ellipse cx="83" cy="65" rx="3" ry="4" stroke="#292828" stroke-width="1" fill="#292828"/>
+</svg>

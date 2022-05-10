@@ -1,0 +1,20 @@
+<svg width="120" height="80" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  
+    <!-- Cuernos casco -->
+    <polygon points="10,10 60,40 20,60" stroke="#C4C4C4" stroke-width="1" fill="#545454"/>
+    <polygon points="110,10 100,60 60,40" stroke="#C4C4C4" stroke-width="1" fill="#545454"/>
+    <!-- Casco -->
+    <path d="M 15 70 C 15 15, 105 15, 105 70" stroke="#C4C4C4" stroke-width="1" fill="#545454"/>
+    <!-- Cinta casco vertical -->
+    <line x1="48" x2="48" y1="30" y2="60" stroke="#C4C4C4" stroke-width="1"/>
+    <line x1="72" x2="72" y1="30" y2="60" stroke="#C4C4C4" stroke-width="1"/>
+    <!-- Cinta casco horizontal -->
+    <line x1="16" x2="104" y1="60" y2="60" stroke="#C4C4C4" stroke-width="1"/>
+    <line x1="15" x2="105" y1="70" y2="70" stroke="#C4C4C4" stroke-width="1"/>
+    <!-- Círculos casco -->
+    <circle cx="30" cy="65" r="4" stroke="#C4C4C4" stroke-width="1" fill="#C4C4C4"/>
+    <circle cx="45" cy="65" r="4" stroke="#C4C4C4" stroke-width="1" fill="#C4C4C4"/>
+    <circle cx="60" cy="65" r="4" stroke="#C4C4C4" stroke-width="1" fill="#C4C4C4"/>
+    <circle cx="75" cy="65" r="4" stroke="#C4C4C4" stroke-width="1" fill="#C4C4C4"/>
+    <circle cx="90" cy="65" r="4" stroke="#C4C4C4" stroke-width="1" fill="#C4C4C4"/>
+</svg>

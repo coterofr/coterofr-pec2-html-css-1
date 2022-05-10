@@ -1,0 +1,15 @@
+# compiled output
+/dist
+
+# dependencies
+/node_modules
+
+# parcel-bundler cache
+.parcel-cache
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

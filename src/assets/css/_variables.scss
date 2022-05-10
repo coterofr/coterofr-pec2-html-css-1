@@ -1,0 +1,113 @@
+/**
+ * Variable styles
+ */
+
+/**
+ * Use Sass colors
+ */
+
+@use "sass:color";
+
+/**
+ * Google imports
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,700");
+
+/**
+ * Fonts variables
+ */
+
+$font-family-sans-serif: "Arial", "Verdana", "sans-serif";
+$font-family-serif: "Georgia", "Times New Roman", "serif";
+$font-family-monospace: "Lucida Console", "Courier New", "monospace";
+$font-family-app: "Inter", "Arial", "sans-serif";
+
+$font-size: 15px;
+
+/**
+ * Position variables
+ */
+
+$width: 70%;
+
+$margin-center: 0 auto;
+
+/**
+ * Image variables
+ */
+
+$width-logo-header: 175px;
+$height-logo-header: 120px;
+
+$width-logo-header-lg: 250px;
+$height-logo-header-lg: 160px;
+
+$width-logo-footer: 120px;
+$height-logo-footer: 80px;
+
+$width-logo-footer-lg: 160px;
+$height-logo-footer-lg: 110px;
+
+$width-img-cat: 170px;
+$height-img-cat: 90px;
+
+$width-img-cat-lg: 220px;
+$height-img-cat-lg: 120px;
+
+$width-img-cat-detail: 350px;
+$height-img-cat-detail: 250px;
+
+$width-img-cat-detail-sm: 300px;
+$height-img-cat-detail-sm: 200px;
+
+$width-img-list-item-1: 200px;
+$height-img-list-item-1: 150px;
+
+$width-img-list-item-2: 150px;
+$height-img-list-item-2: 150px;
+
+$width-img-list-item-lg: 300px;
+$height-img-list-item-lg: 200px;
+
+$width-img-search-item: 150px;
+$height-img-search-item: 150px;
+
+$width-img-presentation: 600px;
+$height-img-presentation: 350px;
+
+$width-img-presentation-medium: 475px;
+$height-img-presentation-medium: 275px;
+
+$width-img-presentation-sm: 300px;
+$height-img-presentation-sm: 185px;
+
+$border-radius-img: 10px;
+
+$background-img: url("../img/common/background.jpg");
+
+/**
+ * Color variables
+ */
+
+$light-color: rgb(250,250,250);
+$light-bg: $light-color;
+
+$gray-color: rgb(215,215,215);
+$gray-light-color: rgb(245,245,245);
+$gray-dark-color: rgb(170,170,170);
+$gray-bg: color.scale($gray-color,$lightness: 70%);
+$gray-dark-gradient: #7a7a7a;
+
+$blue-bg: #f1f7ff;
+$blue-color: #2593d3;
+$blue-light-color: #3e9fd6;
+$blue-light-gradient: #c1ddff;
+$blue-dark-color: #0971ad;
+
+$contrast-color: #f0a3ff;
+$shadow-color: #5c5858;
+$shadow-svg-color: #3a3939;
+$dark-color: rgb(0,0,0);
+$dark-light-color: rgb(55,55,55);
+$dark-opacity-bg: rgb(0,0,0,0.75);

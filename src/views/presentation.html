@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PEC 2 Herramientas HTML y CSS UOC</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.scss">
+    <script type="module" src="../assets/js/app.js"></script>
+  </head>
+  
+  <body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <img class="img-header" src="../assets/img/common/logo-header.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Portada</a>
+                </li>
+                <li>
+                    <a href="./category.html">Categorías</a>
+                </li>
+                <li>
+                    <a class="active" href="./presentation.html">Presentación</a>
+                </li>
+                <li>
+                  <a href="./link.html">Enlaces</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>
+                <i class="fas fa-desktop icon" aria-hidden="true"></i>
+                <span>Presentación</span>
+            </h1>
+
+            <article class="presentation">
+                <h2>
+                    <i class="fa-solid fa-map icon" aria-hidden="true"></i>
+                    <span>Vikingos</span>
+                </h2>
+
+                <figure class="presentation-img">
+                    <img srcset="../assets/img/others/presentation-700w.jpg 700w,
+                                 ../assets/img/others/presentation-500w.jpg 500w,
+                                 ../assets/img/others/presentation-350w.jpg 300w"
+                        sizes="(min-width: 1100px) 700px, 
+                               (min-width: 701px) 500px, 
+                               (max-width: 700px) 350px"
+                        src="../assets/img/others/presentation-500w.jpg"
+                        alt="Vikingos">
+                    <figcaption>Fotografía de vikingos</figcaption>
+                </figure>
+
+                <p>Vikingo (del nórdico antiguo <span class="italic">víkingr</span>) es el principal nombre dado a los guerreros que realizaban incursiones de saqueos, provenientes de los pueblos nórdicos procedentes de Escandinavia, famosos por ser grandes navegantes y por llevar a cabo pillajes y ataques en Europa. Dependiendo del contexto y de la interpretación del autor, puede usarse el nombre para referirse a los incursores de esta procedencia o a sus países de origen. La metonimia ha llevado a que el nombre se siga usando aún hoy en día de forma coloquial para referirse a los países escandinavos. Su lengua era el nórdico antiguo.</p>
+                <p>Si bien existen referencias vagas a pueblos germánicos del mar Báltico y Escandinavia en las fuentes romanas, <span class="bold">sus ataques y su aparición en la escena política europea cobran relevancia con el saqueo del monasterio de Lindisfarne</span> (793 D.C.) en el norte de Gran Bretaña, al que pronto siguieron ataques a otros monasterios. Los anales y crónicas de los dos siglos siguientes están repletos de relatos aterradores. <span class="read-more-presentation">Leer más...</span><span class="read-less-text-presentation is-hidden">Su actuar violento aterrorizó a las antiguas comunidades, que, aunque acostumbradas a la guerra, no tenían forma de prever cuándo habría una incursión y sufrían una carencia de poderes fuertes en los comienzos de la Edad Media. Estos ataques sumados a los de los húngaros y ávaros, a la presión de pueblos eslavos en Europa Oriental y a la de los árabes en el Sur fueron tanto causa como consecuencia de un período de inestabilidad que favoreció la descentralización política del feudalismo.</span></p>  
+                <p class="read-less-text-presentation is-hidden">Durante los siglos siguientes, los vikingos y sus descendientes tuvieron gran influencia en la historia europea. En las islas británicas gobernaron durante muchos años hasta ser finalmente derrotados por los normandos, descendientes de vikingos que habían recibido tierras en Normandía (Francia). En Italia fundaron el reino normando de Sicilia e incluso llegaron a influir con sus incursiones en el Califato de Córdoba y en el Imperio bizantino. A través de los ríos del norte intervinieron repetidas veces en el mar Báltico y en Rusia, cuyos primeros estados (<span class="italic">la Rus de Kiev</span>) aparecen vinculados a aventureros vikingos.</p>   
+                <p class="read-less-text-presentation is-hidden">Se suele datar el <span class="bold">final del periodo vikingo con la caída del rey Harald el Despiadado</span>, que murió en la batalla del puente Stamford en el año 1066 cuando intentaba tomar posesión del territorio de Inglaterra; aunque los historiadores daneses amplían hasta 1085 con el final del reinado de Canuto IV de Dinamarca. Si bien la influencia nórdica siguió siendo relevante, la aculturización de normandos en Francia, Inglaterra e Italia, las victorias militares de varios estados como Francia que lograron asegurar las costas y la propia disminución de incursiones escandinavas con la cristianización de Escandinavia supusieron paulatinamente el final de su actividad tal y como se conocía. <span class="read-less-presentation">Leer menos...</span></p>
+            
+                <svg id="svg-viking" width="250" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  
+                    <!-- Cabeza -->
+                    <ellipse cx="100" cy="100" rx="50" ry="65" stroke="black" stroke-width="3" fill="#E39D5F"/>
+                  
+                    <!-- Ojos -->
+                    <ellipse id="svg-viking-eye-left" cx="80" cy="90" rx="11" ry="9" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="80" cy="90" r="1" stroke="black" stroke-width="5" fill="black"/>
+                    <ellipse id="svg-viking-eye-right" cx="120" cy="90" rx="11" ry="9" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="120" cy="90" r="1" stroke="black" stroke-width="5" fill="black"/>
+                  
+                    <!-- Boca -->
+                    <path id="svg-viking-mouth-close" d="M 75 120 C 75 135, 125 135, 125 120" stroke="black" stroke-width="2" fill="white"/>
+                    <path id="svg-viking-mouth-open" d="M 75 120 C 75 150, 125 150, 125 120" stroke="black" stroke-width="2" fill="white"/>
+                    <line x1="74" x2="126" y1="120" y2="120" stroke="black" stroke-width="2"/>
+
+                    <!-- Barba -->
+                    <circle cx="62" cy="111" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="70" cy="110" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="80" cy="112" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="90" cy="110" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="100" cy="111" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="110" cy="112" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="120" cy="110" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="130" cy="111" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="140" cy="112" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="140" cy="120" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="130" cy="130" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="128" cy="140" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="120" cy="148" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="110" cy="152" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="100" cy="153" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="90" cy="150" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="80" cy="150" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="70" cy="140" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="65" cy="130" r="1" stroke="black" stroke-width="2" fill="white"/>
+                    <circle cx="62" cy="120" r="1" stroke="black" stroke-width="2" fill="white"/>
+                  
+                    <!-- Cuernos casco -->
+                    <polygon id="svg-viking-horn-left" points="50,20 90,40 60,60" stroke="black" stroke-width="2" fill="#D4D2D2"/>
+                    <polygon id="svg-viking-horn-right" points="150,20 140,60 110,40" stroke="black" stroke-width="2" fill="#D4D2D2"/>
+                    <!-- Casco -->
+                    <path d="M 55 70 C 55 15, 145 15, 145 70" stroke="black" stroke-width="2" fill="#D4D2D2"/>
+                    <!-- Cinta casco vertical -->
+                    <line x1="85" x2="85" y1="30" y2="60" stroke="black" stroke-width="2"/>
+                    <line x1="115" x2="115" y1="30" y2="60" stroke="black" stroke-width="2"/>
+                    <!-- Cinta casco horizontal -->
+                    <line x1="56" x2="144" y1="60" y2="60" stroke="black" stroke-width="2"/>
+                    <line x1="55" x2="145" y1="70" y2="70" stroke="black" stroke-width="2"/>
+                    <!-- Círculos casco -->
+                    <circle cx="70" cy="65" r="3" stroke="black" stroke-width="2" fill="black"/>
+                    <circle cx="85" cy="65" r="3" stroke="black" stroke-width="2" fill="black"/>
+                    <circle cx="100" cy="65" r="3" stroke="black" stroke-width="2" fill="black"/>
+                    <circle cx="115" cy="65" r="3" stroke="black" stroke-width="2" fill="black"/>
+                    <circle cx="130" cy="65" r="3" stroke="black" stroke-width="2" fill="black"/>
+                  </svg>
+            </article>
+
+            <article class="presentation">
+                <h2>
+                    <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                    <span>Ragnar Lothbrok</span>
+                </h2>
+
+                <figure class="presentation-iframe">
+                    <iframe src="https://www.youtube.com/embed/MLJyFzdQfK8"></iframe>
+                    <figcaption>El vikingo Ragnar Lothbrok</figcaption>
+                </figure>
+
+                <p>El Rey Ragnar Lothbrok fue un poderoso guerrero vikingo y fundador de la Casa Lothbrok, que cree que está destinado a la grandeza. Él esta impulsado no sólo por su sed de batalla y gloria, sino también por su sed de conocimiento y la naturaleza inquisitiva.</p>
+                <p>Según las crónicas nórdicas, escritas dos siglos después de los saqueos y ataques vikingos en Europa, <span class="bold">Ragnar Lothbrok Sigurdsson fue un legendario monarca de Noruega, Suecia y Dinamarca</span> que reinó en el siglo IX y que pertenecía a la línea real de la casa de los Ynglings, como hijo de Sigurd Ring, rey de Suecia y conquistador de Dinamarca, y su consorte Alfhild Gandolfsdatter.</p>
+                <p>Ragnar Lodbrok era respetado por su pueblo y visto como el señor de la guerra, construyó su fortuna asaltando tierras y reinos en el oeste. <span class="read-more-present-bio">Leer más...</span><span class="read-less-text-present-bio is-hidden">En el arte de la guerra fue un líder ingenioso, logrando que sus hombres sitiaran la ciudad de París e hicieron que el rey Carlos pagara 7000 libras para desocupar el territorio.</span></p>
+                <p class="read-less-text-present-bio is-hidden">Siendo tan sólo un granjero y un miembro habitual en las expediciones hacia poniente junto con sus compañeros nórdicos, Ragnar <span class="bold">ha ido escalando en el poder, empezando por sus famosas incursiones hacia el oeste. Más tarde se convirtió en el conde de Kattegat</span> y, finalmente, incluso en rey de Dinamarca. Su espíritu aventurero le pone en conflicto con los hombres poderosos que tratan de bloquear su ascenso, temerosos de perder su posición.</p>
+                <p class="read-less-text-present-bio is-hidden">Con respecto a la muerte de este héroe nacional, hay dos versiones. La primera asegura que murió a causa de disentería luego de invadir París, una fuerte diarrea que duró más de un mes causó su muerte por deshidratación. Por otro lado, la segunda versión de la muerte del vikingo, expresa que fue asesinado a manos del rey Aelle de Northumbria, zona que Ragnar había sitiado cuantas veces se le antojó. Ragnar luego de navegar, llegó a tierra en la costa del Reino de Northumbria. En ese momento, el rey mandó sus hombres para que lo capturaran, a pesar de la oposición, no pudo vencer a un centenar de hombres. El rey Aella ordenó sin piedad que lo arrojaran a un pozo de serpientes. <span class="read-less-present-bio">Leer menos...</span></p>
+            </article>
+
+            <article class="presentation">
+                <h2>
+                    <i class="fa-solid fa-user-plus icon" aria-hidden="true"></i>
+                    <span>Otros vikingos</span>
+                </h2>
+
+                <ul class="link-list">
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Rollo</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Ivar Ragnarsson</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Björn Ragnarsson</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Lagertha</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Ubbe Ragnarsson</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Sigurd Ragnarsson</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Hvitsärk</a>
+                    </li>
+                    <li class="link-item">
+                        <i class="fa-solid fa-address-card icon" aria-hidden="true"></i>
+                        <a href="#">Harald Halfdansson</a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="presentation">
+                <h2>
+                    <i class="	fas fa-building icon" aria-hidden="true"></i>
+                    <span>Estructura de la página</span>
+                </h2>
+
+                <p>La página <span class="italic">Vikingos: Portal biográfico de los vikingos más ilustres de la historia</span> consta de 4 secciones principales: <span class="bold">Portada</span>, <span class="bold">Categorías</span>, <span class="bold">Presentación</span> y <span class="bold">Enlaces</span>.</p>
+                <p>En la <span class="bold">Portada</span> se presenta el contenido, con enlaces al resto de páginas.</p>
+                <p>En la sección de <span class="bold">Categorías</span> se presenta una lista de categorías junto con un desglose de subcategorías con enlaces al detalle de cada una de ellas, en las cuales también se hará referencia al resto de artículos de una misma subcategoría.</p>
+                <p>En la pestaña de <span class="bold">Presentación</span> se explica en detalle la estructura y contenido del sitio web.</p>
+                <p>Finalmente, en la pestaña de <span class="bold">Enlaces</span> se presenta una lista de enlaces clasificados por tema para la visualización de cada uno de ellos en profundidad.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="nav-main">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="img-footer" src="../assets/img/common/logo-footer.svg" alt="Logo">
+                </a>
+            </div>
+            
+            <nav class="nav-pages">
+                <ul class="pages">
+                    <li>
+                        <a href="../index.html">Portada</a>
+                    </li>
+                    <li>
+                        <a href="./category.html">Categorías</a>
+                    </li>
+                    <li>
+                        <a class="active" href="./presentation.html">Presentación</a>
+                    </li>
+                    <li>
+                      <a href="./link.html">Enlaces</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="nav-policy">
+            <ul class="policy">
+                <li>
+                    <i class="fa-solid fa-circle-info icon" aria-hidden="true"></i>
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li>
+                    <i class="fas fa-exclamation-triangle icon" aria-hidden="true"></i>
+                    <a href="">Aviso legal</a>
+                </li>
+                <li>
+                    <i class="fa fa-shield icon" aria-hidden="true"></i>
+                    <a href="">Política de privacidad</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cookie icon" aria-hidden="true"></i>
+                    <a href="">Política de cookies</a>
+                </li>
+            </ul>
+            <ul class="social-media">
+                <li>
+                    <a href=""><img src="../assets/img/common/twitter.svg" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../assets/img/common/youtube.svg" alt="Youtube"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="copyright">
+            <i class="fas fa-copyright icon" aria-hidden="true"></i> <span>Carlos Otero Franjo, Herramientas HTML y CSS, Universitat Oberta de Catalunya</span>
+        </div>
+    </footer>
+
+    <script type="module" src="../assets/js/app.js"></script>
+  </body>
+</html>
